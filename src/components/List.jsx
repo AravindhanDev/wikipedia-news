@@ -3,7 +3,7 @@ import React from 'react'
 const List = (props) => {
     const renderedList = props.info.map((item) => {
         return (
-            <div key={item.pageid} className="ui segment" style={{padding: "2rem"}}>
+            <div key={item.pageid} className="ui segment content" style={{padding: "2rem"}}>
                 <h2>
                 <a href={"https://en.wikipedia.org?curid="+item.pageid} 
                 className="header" 
